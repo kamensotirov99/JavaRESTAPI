@@ -10,6 +10,7 @@ import javax.ws.rs.core.MediaType;
 import models.User;
 import repository.UserRepository;
 
+//this class is left unused
 @Path("/users")
 public class UserService {
 	private UserRepository userRepository;
